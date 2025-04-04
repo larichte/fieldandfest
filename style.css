@@ -1,0 +1,154 @@
+/*CSS BY LAURA RICHTER*/
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS REST */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+/*Colors*/
+:root {
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+/* GLOBAL/MOBILE STYLES*/
+body{
+    min-width: 400px;
+    font-family: "Playfair Display";
+    line-height: 1.5rem;
+    margin: 0 auto;
+    background-color: var(--soft-white);
+    color: var(--dark-charcoal);
+}
+
+header{
+    background-color: var(--midnight-blue);
+    text-align: center;
+}
+
+header img{
+    width: 200px;
+}
+
+h1{
+    color: var(--soft-white);
+    font-size: 3em;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+header p{
+    color: var(--soft-white);
+    font-style: italic;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+nav ul{
+    background-color: var(--champagne-gold);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0.5rem;
+}
+
+nav li a{
+    text-decoration: none;
+    color: var(--midnight-blue);
+    font-weight: bold;
+}
+
+main{
+    padding: 1rem;
+}
+
+h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+p{
+    font-size: .85em;
+    line-height: 1.25rem;
+    padding-bottom: 1rem;
+}
+
+#about{
+    border-bottom: 2px solid var(--champagne-gold);
+}
+/*PICK UP HERE AT OFFER SECTION*/
+#offer section{
+    background-color: var(--olive-green);
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    border-radius: 10px;
+    color: var(--soft-white);
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+#offer ul li{
+    font-size: .85em;
+    line-height: 1.25rem;
+}
+
+/* MEDIUM STYLES*/
+/* LARGE STYLES*/
+/* X-LARGE STYLES*/
