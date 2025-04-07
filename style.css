@@ -97,14 +97,14 @@ header p{
     padding-bottom: 2rem;
 }
 
-nav ul{
+header nav ul{
     background-color: var(--champagne-gold);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 0.5rem;
 }
 
-nav li a{
+header nav li a{
     text-decoration: none;
     color: var(--midnight-blue);
     font-weight: bold;
@@ -116,7 +116,6 @@ main{
 
 h2{
     font-size: 1.5em;
-    font-weight: bold;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
 }
@@ -130,24 +129,92 @@ p{
 #about{
     border-bottom: 2px solid var(--champagne-gold);
 }
-/*PICK UP HERE AT OFFER SECTION*/
+
 #offer section{
     background-color: var(--olive-green);
     margin: 0.5rem auto;
     padding: 0.5rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     color: var(--soft-white);
+    box-shadow: 3px 3px 3px var(--dark-charcoal);
 }
 
 h3{
     font-size: 1.25rem;
     font-weight: bold;
 }
+/*PROBLEM*/
+#offer section ul{
+    display: list-item;
+    list-style-type: disc;
+}
 
 #offer ul li{
     font-size: .85em;
     line-height: 1.25rem;
 }
+
+#offer{
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+#gallery figure{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--dark-charcoal);
+}
+
+#gallery img{
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#gallery figcaption{
+    text-align: center;
+    font-style: italic;
+    padding: 0.5rem 0;
+}
+
+#gallery p:last-of-type{
+    background-color: var(--olive-green);
+    width: 85%;
+    color: var(--soft-white);
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+#gallery {
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+footer{
+    background-color: var(--midnight-blue);
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+address{
+    color: var(--soft-white);
+}
+
+small{
+    color: var(--champagne-gold);
+}
+/*PROBLEM*/
+#small:first-of-type{
+    margin-bottom: 2rem;
+}
+
 
 /* MEDIUM STYLES*/
 /* LARGE STYLES*/
