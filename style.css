@@ -145,9 +145,18 @@ h3{
     font-weight: bold;
 }
 /*PROBLEM*/
-#offer section ul{
-    display: list-item;
+#offer p{
+    padding: 0;
+}
+
+#offer section{
+    padding: 1rem;
+}
+
+#offer ul{
+    list-style: auto;
     list-style-type: disc;
+    margin-left: 1rem;
 }
 
 #offer ul li{
@@ -210,9 +219,10 @@ address{
 small{
     color: var(--champagne-gold);
 }
-/*PROBLEM*/
-#small:first-of-type{
-    margin-bottom: 2rem;
+
+footer p{
+    color: var(--champagne-gold);
+    padding-bottom: 2rem;
 }
 
 
