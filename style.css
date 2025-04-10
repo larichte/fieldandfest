@@ -138,24 +138,25 @@ p{
 #offer section{
     background-color: var(--olive-green);
     margin: 0.5rem auto;
-    padding: 0.5rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 10px;
     color: var(--soft-white);
     box-shadow: 3px 3px 3px var(--dark-charcoal);
+    transition: all 0.5s;
+}
+
+#offer section:hover{
+    box-shadow: 7px 7px 7px var(--dark-charcoal);
 }
 
 h3{
     font-size: 1.25rem;
     font-weight: bold;
 }
-/*PROBLEM*/
+
 #offer p{
     padding: 0;
-}
-
-#offer section{
-    padding: 1rem;
 }
 
 #offer ul{
