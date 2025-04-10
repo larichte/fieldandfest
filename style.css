@@ -243,7 +243,7 @@ footer p{
 }
 
 
-/* MEDIUM STYLES*/
+/* MEDIA QUERY MEDIUM*/
 @media screen and (min-width: 600px){
     #offer{
         display: grid;
@@ -276,22 +276,22 @@ footer p{
     }
 }
 
-/* LARGE STYLES*/
+/*MEDIA QUERY LARGE*/
 @media screen and (min-width: 900px){
     #gallery{
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+    #offer section:last-of-type{
+        width: 97%;
+    }
 }
 
-/* X-LARGE STYLES*/
+/*MEDIA QUERY X-LARGE*/
 @media screen and (min-width: 1200px){
     main{
         width: 85%;
         margin: 0 auto;
-    }
-
-    #offer section:last-of-type{
-        width: 97%;
     }
 
     #gallery{
